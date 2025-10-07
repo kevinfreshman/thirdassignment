@@ -12,4 +12,6 @@ https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YX
                  truck         50         64      0.211      0.391       0.23     0.0819  
                    van         40         40      0.298      0.075      0.158     0.0529  
 由于我只进行了两轮训练，同时数据集较小，因此结果不佳
-<pre>
+我写了transfer.py来进行数据集的整理，将.json文件转化成YOLO的.txt文件
+ 其余是我使用openvino的程序
+ <pre>
